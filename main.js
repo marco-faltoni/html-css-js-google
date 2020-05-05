@@ -11,7 +11,7 @@ $('#grid-menu > li > a').click(function() {
         // se no => ho cliccato una nuova voce per aprirlo
         // chiudo altri eventuali dropdown aperti in precedenza
         $('.dropmenu').addClass('no-visibility');
-        // visualizzo il menu dropdown
+        // visualizzo il menu dropdown cliccato
         dropmenu.removeClass('no-visibility');
     }
 });
