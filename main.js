@@ -6,12 +6,31 @@ $('#grid-menu > li > a').click(function() {
     // valuto se l'elemento su cui ho cliccato ha già il dropdown aperto
     if(dropmenu.is(':visible')) {
         // se sì => ho cliccato la stessa voce per chiuderlo
-        dropmenu.addClass('no-visibility');
+        dropmenu.removeClass('visibility');
     } else {
         // se no => ho cliccato una nuova voce per aprirlo
         // chiudo altri eventuali dropdown aperti in precedenza
-        $('.dropmenu').addClass('no-visibility');
+        $('.dropmenu').removeClass('visibility');
         // visualizzo il menu dropdown cliccato
-        dropmenu.removeClass('no-visibility');
+        dropmenu.addClass('visibility');
     }
 });
+
+// $(document).click(function(event) {
+//     var target = $(event.target);
+//     console.log(target);
+//
+//     if (!target.hasClass('nav') && $('.dropmenu').hasClass('visibility') ) {
+//         $('.dropmenu').removeClass('visibility');
+//     }
+// });
+
+
+
+
+
+
+
+// setTimeout(function() {
+//     $('.privacy').addClass('privacy-show');
+// }, 3000);
