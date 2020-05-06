@@ -78,6 +78,7 @@ header {
     padding: 20px 10px;
     transform: translateX(-50%);
     box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+    border-radius: 10px;
     background-color: white;
     overflow-y: auto;
     z-index: 2;
@@ -104,6 +105,10 @@ h6 {
     white-space: nowrap;
     text-overflow:ellipsis;
     width: 55px;
+}
+
+h6:hover {
+    overflow: visible;
 }
 
 
@@ -134,11 +139,17 @@ h6 {
 }
 
 .mic {
-    border-left: 0
+    border-left: 0;
+    color: #C9C7C5;
+}
+
+.sear {
+    border-right: 0;
 }
 
 .fa-search {
     font-size: 12px;
+    color: #C9C7C5;
 }
 
 .btn-light {
