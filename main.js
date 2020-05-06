@@ -30,7 +30,6 @@ $('#grid-menu > li > a').click(function() {
 
 
 
-
 // setTimeout(function() {
 //     $('.privacy').addClass('privacy-show');
 // }, 3000);

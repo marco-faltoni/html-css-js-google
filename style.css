@@ -125,12 +125,16 @@ h6 {
 .form-control {
     border-radius: 20px;
     border-left: 0;
+    border-right: 0;
 }
 
 .input-group-text {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 20px;
-    border-right: 0;
+}
+
+.mic {
+    border-left: 0
 }
 
 .fa-search {
